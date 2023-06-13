@@ -167,7 +167,7 @@ function PriceList () {
 
     const listItems = items.map((item, index) => {
 
-        console.log(item.header)
+
         return <PriseItem key={index} header={item.header} content={item.content} btn={item.btn} />
     });
 

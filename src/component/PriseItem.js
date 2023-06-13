@@ -1,8 +1,9 @@
  import "./css/priseItem.css";
 function PriseItem({header,content,btn}) {
-    console.log(header);
-    console.log(content);
-    console.log(btn);
+    const handleClick =() =>{
+
+        console.log("click")
+    }
      const rendercontent = content.map((item,index) => {
             return <li className = "item-content" key={index}>{item}</li>
         });
@@ -19,7 +20,7 @@ function PriseItem({header,content,btn}) {
                     {rendercontent}
                 </dl>
             </div>
-            <button className="btn">{btn}</button>
+            <button onClick={()=>handleClick()} className="btn">{btn}</button>
           
 
         </div>
