@@ -83,6 +83,86 @@ function PriceList () {
             btn: "Sign Up For Free"
 
         },
+        {
+            header: {
+                title: 'FREE',
+                price: '110',
+                description: ' mo',
+            },
+            content: [
+                'Single User',
+                '5GB Storage',
+                'Unlimited Public Projects',
+                'Community Access',
+                'Unlimited Private Projects',
+            ],
+            btn: "Sign Up For Free"
+
+        },
+        {
+            header: {
+                title: 'FREE',
+                price: '110',
+                description: ' mo',
+            },
+            content: [
+                'Single User',
+                '5GB Storage',
+                'Unlimited Public Projects',
+                'Community Access',
+                'Unlimited Private Projects',
+            ],
+            btn: "Sign Up For Free"
+
+        },
+        {
+            header: {
+                title: 'FREE',
+                price: '110',
+                description: ' mo',
+            },
+            content: [
+                'Single User',
+                '5GB Storage',
+                'Unlimited Public Projects',
+                'Community Access',
+                'Unlimited Private Projects',
+            ],
+            btn: "Sign Up For Free"
+
+        },
+        {
+            header: {
+                title: 'FREE',
+                price: '110',
+                description: ' mo',
+            },
+            content: [
+                'Single User',
+                '5GB Storage',
+                'Unlimited Public Projects',
+                'Community Access',
+                'Unlimited Private Projects',
+            ],
+            btn: "Sign Up For Free"
+
+        },
+        {
+            header: {
+                title: 'FREE',
+                price: '110',
+                description: ' mo',
+            },
+            content: [
+                'Single User',
+                '5GB Storage',
+                'Unlimited Public Projects',
+                'Community Access',
+                'Unlimited Private Projects',
+            ],
+            btn: "Sign Up For Free"
+
+        },
     ]
 
     const listItems = items.map((item, index) => {
@@ -92,7 +172,7 @@ function PriceList () {
     });
 
     return (
-        <div className="prise-list">
+        <div className= "prise-list">
             {listItems}
         </div>
     );
