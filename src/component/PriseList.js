@@ -1,7 +1,7 @@
 import PriseItem from "./PriseItem";
 import "./css/priseItemlist.css";
 
-function PriceList() {
+function PriceList () {
     const items = [
         {
             header: {
@@ -54,7 +54,7 @@ function PriceList() {
         {
             header: {
                 title: 'FREE',
-                price: '0',
+                price: '110',
                 description: ' mo',
             },
             content: [
@@ -70,7 +70,7 @@ function PriceList() {
         {
             header: {
                 title: 'FREE',
-                price: '0',
+                price: '110',
                 description: ' mo',
             },
             content: [
@@ -84,16 +84,16 @@ function PriceList() {
 
         },
     ]
-    const listItems = items.map((item,index) => {
-       
-        console.log(item.header)
-        return <PriseItem key = {index} header = {item.header} content = {item.content} btn ={item.btn}/>
-    });
 
+    const listItems = items.map((item, index) => {
+
+        console.log(item.header)
+        return <PriseItem key={index} header={item.header} content={item.content} btn={item.btn} />
+    });
 
     return (
         <div className="prise-list">
-          {listItems}
+            {listItems}
         </div>
     );
 }
