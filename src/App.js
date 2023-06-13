@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import PriceList from './component/PriseList';
 import './App.css';
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h6 className='primery-txt'>OUR PRICING PLAN</h6>
+      <h1 className='second-text'>The Best Price</h1>
+      <PriceList />
     </div>
   );
 }

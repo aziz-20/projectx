@@ -1,0 +1,34 @@
+.prise-list{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+/* @media (min-width: 1300px) {
+   
+    .prise-list{
+      max-width: 1200px;
+      
+    
+    }
+  
+  }
+  @media (min-width: 1200px) and (max-width: 1299px) {
+    
+    .prise-list{
+      max-width: 1000px;
+      
+    
+    }
+  }
+  @media (max-width: 999px)  {
+    
+    .prise-list{
+      width: 100%;
+      
+    
+    }
+  } */
