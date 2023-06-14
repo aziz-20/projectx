@@ -88,4 +88,16 @@
     padding-right: 7%;
 }
 
+}@media  (max-width: 1000px) {
+.article{
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
+.section::after,.section::before{
+    display: none;
+
+} 
+    
+}
+
