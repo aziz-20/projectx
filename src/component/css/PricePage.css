@@ -1,0 +1,51 @@
+.PricePage {
+
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  text-align: center; 
+  
+}
+.primery-txt{
+  font-size: 1rem;
+  font-weight: 600!important;
+  color: #46c6ce!important;
+  margin-bottom: 1rem!important;
+  
+}
+.second-text{
+  margin-bottom: 3rem!important;
+  font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    font-weight: 800!important;
+  
+}
+@media (min-width: 1300px) {
+  /* … */
+  .PricePage{
+    max-width: 1200px;
+    
+  
+  }
+
+}
+@media (min-width: 1200px) and (max-width: 1299px) {
+  
+  .PricePage{
+    max-width: 1000px;
+    
+  
+  }
+}
+@media (min-width:1199px)  {
+  
+  .PricePage{
+    width: 100%;
+    
+  
+  }
+}
+
+
