@@ -1,13 +1,11 @@
-import PricePage from "./component/PricePage";
-import BgScap from "./component/BgScap";
+import LogingForm from "./component/LoginForm";
 import "./App.css";
 function App() {
   
   return (
     
     <div className="App">
-          <BgScap />
-          <PricePage />
+      <LogingForm/>
     </div>
   
   );
