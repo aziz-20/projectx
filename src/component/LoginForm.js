@@ -6,13 +6,12 @@ function LogingForm() {
     const phoneRef = useRef(null);
     let [offSetToLeft, setOffSetToLeft] = useState(-100);
     let [visble, setVisble] = useState(0);
-    // let offSetToLeft = -100;
-    // let visble = 0;
+ 
 
     function SlideMovie(dirictio) {
         
-        const email = emailRef.current;
-        const phone = phoneRef.current;
+        // const email = emailRef.current;
+        // const phone = phoneRef.current;
 
         if (dirictio === 1) {
             let setIntervalId =
@@ -47,8 +46,6 @@ function LogingForm() {
                 , 1000);
         }
     }
-
-
     const onclickEmail = () => {
         
         SlideMovie(1);
@@ -56,11 +53,6 @@ function LogingForm() {
     const onclickPhone = () => {
         SlideMovie(2);
     }
-
-
-
-
-
 
     return (
         <div>
